@@ -4,6 +4,7 @@
 1.  [UN Procurement Evaluation Methods](#1-un-procurement-evaluation-methods)
 2.  [World Bank Procurement Guidance: Evaluating Bids and Proposals](#2-world-bank-procurement-guidance-evaluating-bids-and-proposals)
 3.  [Harvard Kennedy School: Proposal Evaluation Tips & Tricks](#3-harvard-kennedy-school-proposal-evaluation-tips--tricks)
+4.  [Examples from real-life RFPs](#4-examples-from-real-life-rfps)
 
 ## 1. UN Procurement Evaluation Methods
 
