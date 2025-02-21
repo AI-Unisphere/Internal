@@ -180,3 +180,33 @@ among the technical acceptable offers. All other price proposals receive scores 
 proportion according to the following formula:
 Score for price A = (30*Price of lowest priced proposal)/Price of proposal A
 
+### 4.2 Giga: Giga: Develop innovative, reliable, and affordable solutions to provide Internet connectivity to schools in Rwanda with sustainable financial models
+
+- The weight allocated between technical and price proposal will be 60/40 (technical/financial).
+- Only technically qualified bidders who score the Minimum Technical Qualification point of 70% of the Technical Points (42 and above) will be considered for next stage of financial evaluation.
+- Proposals will be assessed based on the below technical criteria and relative points indicated in the table.
+
+  #### Evaluation metrics
+
+| ITEM | TECHNICAL EVALUATION CRITERIA | MAX POINTS |
+|------|------------------------------|------------|
+| 1 | **Overall Response** | **10** |
+| 1.1 | - Completeness of response | 5 |
+| 1.2 | - Overall concord between TOR/needs and proposal | 5 |
+| 2 | **Company and Key Personnel** | **15** |
+| 2.1 | - Range and depth of organizational experience with similar projects | 5 |
+| 2.2 | - Samples of previous work | 3 |
+| 2.3 | - Number of customers, size of projects, number of staff per project | 2 |
+| 2.4 | - Key personnel: relevant experience and qualifications of the proposed team for the assignment supported by CVs | 5 |
+| 3 | **Proposed Methodology and Approach** | **35** |
+| 3.1 | - Project implementation plan with timeframe | 10 |
+| 3.2 | - Technologies used - compatibility with specifications mentioned in the ToRs with an emphasis on reliable and continuous connectivity services | 5 |
+| 3.3 | - Project management, monitoring and quality assurance process | 5 |
+| 3.4 | - Innovative approach | 5 |
+| 3.5 | - Locally owned company | 2 |
+| 3.6 | - Future capacity for scaling and expansion | 5 |
+| 3.7 | - Approach for high frequency quality of service data sharing (specify mechanism and testing prior to contract) | 3 |
+| | **TOTAL TECHNICAL SCORE** | **60** |
+| | **TOTAL FINANCIAL SCORE** | **40** |
+| | **SUMMARY OF TECHNICAL & FINANCIAL SCORE** | **100** |
+
