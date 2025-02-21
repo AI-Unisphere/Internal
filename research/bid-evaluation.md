@@ -150,3 +150,32 @@ This approach ensures that evaluations are not only fair and thorough but also s
 
 - Source: https://gplpen.hks.harvard.edu/wp-content/uploads/2022/11/Proposal-Evaluation-Tips-and-Tricks-How-to-Select-the-Best-Vendor-for-the-Job.pdf
 
+## 4. Examples from real-life RFPs
+
+### 4.1 Giga: Implementation of GIGA project to accelerate school connectivity in Sierra Leone
+
+#### Evaluation Metrics
+
+| **Criteria**                          | **Sub-Criteria**                                                                 | **Max. Points** |
+|---------------------------------------|---------------------------------------------------------------------------------|-----------------|
+| **1. Overall Response**               | Understanding of the assignment and alignment with the Terms of Reference (ToR) | 5               |
+|                                       | Completeness of response                                                       | 2.5             |
+|                                       | Overall concord between RFP requirements and proposal                          | 2.5             |
+| **2. Company and Key Personnel**      | Range and depth of organizational experience with similar projects              | 5               |
+|                                       | Samples of previous work                                                       | 8               |
+|                                       | Relevant experience and qualifications of the proposed team                    | 7               |
+| **3. Proposed Methodology and Approach** | Work plan and approach for implementation                                      | 20              |
+|                                       | Implementation strategies, monitoring, and quality control mechanisms          | 15              |
+|                                       | Innovative approach                                                            | 10              |
+| **Total Technical Scores**            |                                                                                 | **70**          |
+| **Financial Proposal**                | Capital Costs (hardware, power supply, installation, training)                 | -               |
+|                                       | Operational Costs (bandwidth, maintenance, support)                           | -               |
+|                                       | Other associated costs                                                         | -               |
+| **Total Financial Scores**            |                                                                                 | **30**          |
+| **Final Recommendation**              | Combined Technical and Financial Scores                                        | **100**         |
+
+* Financial offers will be scored out of 30 points. 30 points will be allocated to the lowest offers
+among the technical acceptable offers. All other price proposals receive scores in inverse
+proportion according to the following formula:
+Score for price A = (30*Price of lowest priced proposal)/Price of proposal A
+
