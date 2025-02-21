@@ -180,7 +180,7 @@ among the technical acceptable offers. All other price proposals receive scores 
 proportion according to the following formula:
 Score for price A = (30*Price of lowest priced proposal)/Price of proposal A
 
-### 4.2 Giga: Giga: Develop innovative, reliable, and affordable solutions to provide Internet connectivity to schools in Rwanda with sustainable financial models
+### 4.2 Giga: Develop innovative, reliable, and affordable solutions to provide Internet connectivity to schools in Rwanda with sustainable financial models
 
 - The weight allocated between technical and price proposal will be 60/40 (technical/financial).
 - Only technically qualified bidders who score the Minimum Technical Qualification point of 70% of the Technical Points (42 and above) will be considered for next stage of financial evaluation.
