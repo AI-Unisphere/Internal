@@ -22,20 +22,15 @@ _Sources:_
 - https://www.open-contracting.org
 - https://standard.open-contracting.org
 
-## 2.1.1 AI-RFX Procurement Framework
-The AI-RFX Procurement Framework (open source), from the Institute for Ethical AI & Machine Learning, guides the responsible acquisition of Machine Learning systems, focusing on AI safety, quality, and performance. It provides a method to assess the maturity level of the technical infrastructure and processes surrounding the algorithms themselves, using the Machine Learning Maturity Model.
+## Resources that might be useful / interesting for us
+### 1. AIPA - Artificial Intelligence Procurement Assistant - Version 1
+This software is the first version of a new tool that helps companies improve their procurement processes using artificial intelligence.
+https://github.com/koivupuu/AIPA
 
-_Key elements:_
-- Machine Learning Maturity Model (8 criteria, based on Responsible ML Principles).
-- Templates for AI-focused RFx documents.
-- Guidelines for ethically and technically evaluating AI vendors.
+### 2. Sievo
+Sievo offers AI-driven spend analysis and classification tools.
+https://sievo.com/resources/ai-in-procurement
 
-_It helps by:_
-- Assessing AI solutions against Responsible ML Principles.
-- Adding AI-specific needs to RFx documents.
-- Comparing AI vendor capabilities.
-- Promoting transparency and ethics in AI procurement.
-- Adaptable across industries for informed, ethical AI decisions.
-
-_Source:_
-- https://ethical.institute/rfx.html
+### 3. Open Procurement
+An open-source toolkit for managing procurement processes, developed using Python, Angular.js, and other technologies. It offers features like proposal evaluation, a central database, and integration with cloud services
+https://openprocurement.io/en
