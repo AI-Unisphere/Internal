@@ -1,3 +1,9 @@
+# Procurement related communities / discussion forums
+
+## 1. Reddit
+https://www.reddit.com/r/procurement/new/
+(idea: make a survey and post there)
+
 # Reports and Surveys that are publicly available
 
 ## 1. South Africa Procurement Survey (2022 and 2023)
@@ -97,28 +103,28 @@ Procurement teams must adapt to stay competitive in 2023, with five key trends s
 
 **1. Increased Emphasis on Sustainability:**
 
-**Key Points**: Procurement teams will need to evaluate suppliers based on their sustainability practices, such as renewable energy use and waste reduction.
-**Impact**: Companies will set sustainability targets and require suppliers to meet them, influencing supplier selection and collaboration.
+- **Key Points**: Procurement teams will need to evaluate suppliers based on their sustainability practices, such as renewable energy use and waste reduction.
+- **Impact**: Companies will set sustainability targets and require suppliers to meet them, influencing supplier selection and collaboration.
 
 **2. Greater Use of Technology:**
 
-**Key Points**: Increased reliance on software, automation, AI, and machine learning to streamline procurement processes.
-**Impact**: Enhanced decision-making, supplier selection, contract management, and risk mitigation, but with increased cybersecurity risks.
+- **Key Points**: Increased reliance on software, automation, AI, and machine learning to streamline procurement processes.
+- **Impact**: Enhanced decision-making, supplier selection, contract management, and risk mitigation, but with increased cybersecurity risks.
 
 **3. Focus on Risk Mitigation:**
 
-**Key Points**: Procurement teams will assess supplier risks (financial stability, geopolitical risk, resilience to natural disasters) and ensure contracts have adequate protections.
-**Impact**: Development of contingency plans to address potential supply chain disruptions.
+- **Key Points**: Procurement teams will assess supplier risks (financial stability, geopolitical risk, resilience to natural disasters) and ensure contracts have adequate protections.
+- **Impact**: Development of contingency plans to address potential supply chain disruptions.
 
 **4. Emphasis on Supplier Relationship Management (SRM):**
 
-**Key Points**: Establishing strong relationships with suppliers through regular communication, collaboration, and feedback.
-**Impact**: Identification of innovation and cost-saving opportunities, strategic supplier selection, and risk mitigation.
+- **Key Points**: Establishing strong relationships with suppliers through regular communication, collaboration, and feedback.
+- **Impact**: Identification of innovation and cost-saving opportunities, strategic supplier selection, and risk mitigation.
 
 **5. Increased Diversity and Inclusion (D&I):**
 
-**Key Points**: Evaluating supplier diversity programs, promoting a diverse supplier base, and prioritizing D&I in hiring and talent management.
-**Impact**: Attracting and retaining a diverse workforce, promoting inclusion, and supporting small and minority-owned businesses.
+- **Key Points**: Evaluating supplier diversity programs, promoting a diverse supplier base, and prioritizing D&I in hiring and talent management.
+- **Impact**: Attracting and retaining a diverse workforce, promoting inclusion, and supporting small and minority-owned businesses.
 
 **Conclusion**:
 By focusing on these trends, procurement teams can meet business needs, drive value, and minimize risks. Embracing sustainability, technology, risk mitigation, SRM, and D&I will position businesses for success in the coming years.
