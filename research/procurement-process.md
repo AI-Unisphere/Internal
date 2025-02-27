@@ -34,3 +34,7 @@ https://sievo.com/resources/ai-in-procurement
 ### 3. Open Procurement
 An open-source toolkit for managing procurement processes, developed using Python, Angular.js, and other technologies. It offers features like proposal evaluation, a central database, and integration with cloud services
 https://openprocurement.io/en
+
+### 4. OpenAI RFP response analyzer
+RFP-Response Analyzer is a Flask web app that uses AI to analyze and compare RFP documents with their responses, providing insights, gap analysis, and interactive chat for quick queries.
+https://github.com/lesteroliver911/openai-rfp-response-analyzer
