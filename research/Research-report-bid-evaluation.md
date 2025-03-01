@@ -324,3 +324,188 @@ Marco Araújo, L. Ekenberg, M. Danielson, and J. Confraria. "A Multi-Criteria Ap
 Muhammad A. Obeidat. "Evaluation of Information Technology Vendor Services: An Empirical Study," 2011.
 
 Pati Ruiz, E. Richard, Carly M. Chillmon, Zohal Shah, Adam Kurth, Andy Fekete, Kip Glazer, et al. "Emerging Technology Adoption Framework: For PK-12 Education," 2022.
+
+## Formulatisation of the best practices for LLM use
+
+### LLM-Based Framework for Connectivity Bid Evaluation
+
+This document outlines a framework for evaluating connectivity bids using an LLM, based on best practices synthesized from academic research. It is tailored for scenarios like Giga's mission to connect every school to the internet.
+
+### I. Core Evaluation Criteria
+
+The evaluation criteria are categorized and weighted as follows:
+
+1.  **Technical Requirements (40%):** Focuses on network performance and future-proofing.
+    *   **Minimum Speed:** 25 Mbps download, 10 Mbps upload.  ([1][7])
+    *   **Latency Threshold:** < 50ms.
+    *   **Uptime Guarantee:** 99.9%.
+    *   **Disaster Recovery:** Automatic failover mechanisms.
+    *   **Future-Proofing:**  Assess alignment with Wi-Fi 7, 5G SA, and LEO satellite integration.  Evaluate modularity for phased upgrades.
+2.  **Cost Structure (30%):** Examines the total cost of ownership.
+    *   **5-Year TCO Calculation:**
+        ```
+        TCO = Hardware + Σ (Maintenance_y / (1+r)^y)  (for y=1 to 5)
+        ```
+        Where `r` = 0.03 (3% discount rate).
+    *   **Considerations:** Energy consumption, maintenance cost curves, end-of-life recycling expenses.
+3.  **Impact Potential (20%):** Measures the educational and community impact.
+    *   **Simultaneous Users:** Support for 30+ devices per classroom.
+    *   **LMS Integration:** Compatibility with Learning Management Systems via API standards.
+    *   **Accessibility:** Compliance with WCAG 2.1 AA guidelines.
+    *   **Digital Equity:**  Multilingual interface support.
+4.  **Vendor Viability (10%):** Assesses the vendor's credibility and financial health.
+    *   **Financial Health Score:**
+        ```
+        FScore = 0.4 * Quick Ratio + 0.6 * Debt/Equity Ratio
+        ```
+    *   **Technical Credentials:** Validated implementations in similar environments.
+    *   **Engineer Certifications:**  Juniper, Cisco, Huawei equivalents.
+
+### II. LLM Processing Pipeline
+
+The LLM will be used in the following pipeline:
+
+class BidEvaluator:
+def init(self):
+self.extractor = LayoutLMv3ForTokenClassification() # for PDF analysis
+self.scoring_model = AutoModelForSequenceClassification() #for scoring bid text
+
+def analyze_bid(self, pdf_path):
+    # Stage 1: Data Extraction
+    tech_specs = self.extract_technical_specs(pdf_path)
+    cost_data = self.parse_financial_tables(pdf_path)
+
+    # Stage 2: Compliance Check
+    compliance = self.check_minimum_requirements(tech_specs)
+
+    # Stage 3: Multi-Dimensional Scoring
+    scores = {
+        'technical': self.score_tech(tech_specs),
+        'financial': self.score_costs(cost_data),
+        'impact': self.score_impact(pdf_path)
+    }
+
+    # Stage 4: Risk Flagging
+    risk_profile = self.calculate_risk(scores)
+
+    return {
+        'compliance_status': compliance,
+        'dimensional_scores': scores,
+        'risk_indicators': risk_profile
+    }
+
+## III. Implementation Blueprint
+
+### 1. Preprocessing Module
+
+*   Use OCR and table recognition to extract data from bid documents.
+*   Regular expressions can be used to identify key values.
+
+    ```
+    def extract_technical_specs(pdf):
+        specs = {
+            'speed': regex_search(r'\d+\s?Mbps', pdf_text),
+            'latency': number_before_keyword('latency'),
+            'uptime': percentage_after_keyword('availability')
+        }
+        return validate_specs(specs)
+    ```
+
+### 2. Scoring Algorithms
+
+*   Develop scoring functions for each criterion.
+
+    **Technical Merit Calculation:**
+
+    ```
+    def score_tech(specs):
+        base_score = 0
+        if specs['speed'] >= 25: base_score += 40
+        elif specs['speed'] >= 10: base_score += 20
+
+        if specs['latency'] <= 50: base_score += 30
+        elif specs['latency'] <= 100: base_score += 15
+
+        base_score += min(specs['uptime'], 99.9)/100 * 30
+        return base_score
+    ```
+
+    **Impact Potential Estimator:**
+
+    ```
+    def score_impact(text):
+        impact_keywords = {
+            'disabled_access': 15,
+            'local_language': 10,
+            'teacher_training': 10,
+            'open_source': 5
+        }
+        return sum(weight for kw, weight in impact_keywords.items() if kw in text)
+    ```
+
+### 3. Risk Analysis Engine
+
+*   Develop a risk index to flag potentially problematic bids.
+
+    ```
+    Risk Index = (Technical Debt + Financial Leverage) / 2
+    ```
+
+    Where:
+
+    *   Technical Debt = Missing future-proofing features.
+    *   Financial Leverage = Debt/Equity ratio > 0.8.
+
+    ```
+    def calculate_risk(scores):
+        return {
+            'technical_risk': 1 - (scores['technical']/100),
+            'financial_risk': max(0, (debt_ratio - 0.8)/0.2),
+            'vendor_risk': (1 - last_3_projects_score)
+        }
+    ```
+
+## IV. Minimal Viable Feature Set for a Hackathon
+
+1.  **Automated Compliance Checker:**
+
+    ```
+    python evaluate.py check-compliance bid.pdf
+    > Output: PASS/FAIL with missing requirements
+    ```
+
+2.  **Rapid Scoring Dashboard:**
+
+    *   Use Streamlit to display real-time score breakdowns, comparative bid analysis, and risk heatmaps.
+
+3.  **Explainability Module:**
+
+    ```
+    def generate_feedback(scores):
+        return f"""
+        Technical: {scores['technical']}/100
+        - Latency exceeds threshold (75ms vs 50ms target)
+        - Excellent uptime commitment (99.95%)
+        """
+    ```
+
+## V. Sample Output
+
+{
+"vendor": "ConnectEd Solutions",
+"compliance": {
+"passed": true,
+"missing": []
+},
+"scores": {
+"technical": 82,
+"financial": 75,
+"impact": 90
+},
+"risk_flags": ["high_financial_leverage"],
+"recommendation": "Conditional approval with financial oversight"
+}
+
+
+This framework provides a foundation for building an LLM-powered bid evaluation system.  It is adaptable to specific requirements and constraints and emphasizes transparency and explainability.
+
